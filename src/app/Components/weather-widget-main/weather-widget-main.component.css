@@ -1,0 +1,55 @@
+.divWeatherMain{
+    display: block;
+    border-radius: 10px;
+    width: 240px;
+    height: 260px;
+    color: white;;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.divWeatherMainDay{
+ 
+    /* come fare il background a gradiente 
+       vedi https://www.youtube.com/watch?v=8Nj1XvZWaHI&list=PLP5MAKLy8lP-a0MG-MFHKCISmj2Wg4vT6&index=6  minuto 6:29
+    */
+
+    /* giorno */
+    background: rgb(0,42,148); 
+    background: linear-gradient(174deg, rgba(0,42,148,1) 23%, rgba(121,143,200,1) 85%);
+}
+
+.divWeatherMainNight{
+   
+    /* come fare il background a gradiente 
+       vedi https://www.youtube.com/watch?v=8Nj1XvZWaHI&list=PLP5MAKLy8lP-a0MG-MFHKCISmj2Wg4vT6&index=6  minuto 6:29
+    */
+
+    /* notte */
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(8,7,42,1) 75%, rgb(8, 10, 63) 100%); 
+}
+
+
+
+.weatherWidgetRow{
+    display:block;
+    margin:0 auto;
+    width: fit-content;
+}
+
+.sun{
+    margin-top: 30px;
+    color: yellow;
+    filter: drop-shadow( 1px 1px 10px yellow);
+    width: 60px;
+}
+
+.moon{
+    margin-top: 30px;
+    color: white;
+    filter: drop-shadow( 1px 1px 10px white);
+    width: 60px;
+}
+
+
